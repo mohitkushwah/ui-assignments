@@ -1,6 +1,5 @@
 main{
 	display: flex;
-	/*justify-content: space-around;*/
 	background: whitesmoke;
 	justify-content: center;
 	align-items: center;
@@ -53,7 +52,7 @@ button:focus{
 	border-radius: 3px;
 	border: 1px solid #e8e8e8;
 	background: #f6f6f6;
-	width: 428px;
+	width: 408px;
 	height: 58px;
 }
 .button{
@@ -116,11 +115,12 @@ button:focus{
 	font-size: 18px;
 	font-weight: 400;
 	color: black;
+	letter-spacing: 1px;
 }
 .footer{
 	display: flex;
 	justify-content: space-between;
-	padding: 5px 0;
+	padding: 5px 5px;
 }
 .foot{
 	width: 183px;
@@ -135,4 +135,5 @@ input{
 
    font-size: 16px;
     padding-left: 20px;
+    padding-right: 20px;
 }
